@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #CD3301;
+  --color-brand-hover: #B32C00;
+  --color-bg-desktop: #E6E6E6;
+  --font-poppins: "Poppins", sans-serif;
+}
