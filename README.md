@@ -10,7 +10,7 @@ Repositori ini berisi hasil pengerjaan Technical Test untuk posisi Fullstack Dev
 ---
 
 ## Cara Menjalankan Proyek (Local)
-
+  
 ### Prasyarat Penting
 Pastikan ekstensi PHP **`zip`** dan **`gd`** sudah aktif di `php.ini` Anda. Kedua ekstensi ini wajib aktif agar fitur *export* Excel dari `maatwebsite/excel` dapat berjalan.
 
@@ -87,12 +87,11 @@ Buka **`http://localhost:5173 di browser Anda.`**
 ## Postman Collection
 Semua request API di atas dapat diuji menggunakan Postman Collection yang sudah disediakan:
 - File Collection: **`postman/Talenavi_Todo_API.postman_collection.json`**
-- Contoh Hasil Excel: **`postman/samples/`** (berisi file excel hasil filter)
 
 ## Fitur Frontend (Login Page)
 - Responsif:
   - Desktop (≥ 1024px): Layout dua kolom (Banner di kiri, Form di kanan).
-  - Mobile (≤ 768px): Form di tengah dengan Banner sebagai background penuh dan overlay gelap.
+  - Mobile (< 1024px): Form di tengah dengan Banner sebagai background penuh dan overlay gelap.
 - Validasi Form:
   - Email wajib diisi dan harus berformat valid.
   - Password wajib diisi minimal 6 karakter.
