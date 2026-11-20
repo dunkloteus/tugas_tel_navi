@@ -45,8 +45,7 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen font-poppins relative flex items-center justify-center lg:bg-bg-desktop lg:p-4">
-      
-      {/* Background Mobile & Overlay */}
+
       <div className="absolute inset-0 block lg:hidden">
         <img 
           src={bannerMobile} 
@@ -56,7 +55,6 @@ export default function LoginPage() {
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
 
-      {/* Kartu Desktop */}
       <div className="hidden lg:flex bg-white w-full max-w-[1300px] min-h-[85vh] rounded-[2rem] shadow-lg overflow-hidden z-10">
         <div className="w-[58%] relative">
           <img src={bannerDesktop} alt="Banner Desktop" className="w-full h-full object-cover" />
